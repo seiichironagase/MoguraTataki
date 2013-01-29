@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B198DB616B7FAE1008165AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B198DB516B7FAE1008165AE /* UIKit.framework */; };
+		9B198DB816B7FAE1008165AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B198DB716B7FAE1008165AE /* Foundation.framework */; };
+		9B198DBA16B7FAE1008165AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B198DB916B7FAE1008165AE /* CoreGraphics.framework */; };
+		9B198DC016B7FAE1008165AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B198DBE16B7FAE1008165AE /* InfoPlist.strings */; };
+		9B198DC216B7FAE1008165AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B198DC116B7FAE1008165AE /* main.m */; };
+		9B198DC616B7FAE1008165AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B198DC516B7FAE1008165AE /* AppDelegate.m */; };
+		9B198DC816B7FAE1008165AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B198DC716B7FAE1008165AE /* Default.png */; };
+		9B198DCA16B7FAE1008165AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B198DC916B7FAE1008165AE /* Default@2x.png */; };
+		9B198DCC16B7FAE1008165AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B198DCB16B7FAE1008165AE /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B198DB116B7FAE1008165AE /* MoguraTataki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoguraTataki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B198DB516B7FAE1008165AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B198DB716B7FAE1008165AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B198DB916B7FAE1008165AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B198DBD16B7FAE1008165AE /* MoguraTataki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoguraTataki-Info.plist"; sourceTree = "<group>"; };
+		9B198DBF16B7FAE1008165AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B198DC116B7FAE1008165AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B198DC316B7FAE1008165AE /* MoguraTataki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoguraTataki-Prefix.pch"; sourceTree = "<group>"; };
+		9B198DC416B7FAE1008165AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B198DC516B7FAE1008165AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B198DC716B7FAE1008165AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9B198DC916B7FAE1008165AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9B198DCB16B7FAE1008165AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B198DAE16B7FAE1008165AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B198DB616B7FAE1008165AE /* UIKit.framework in Frameworks */,
+				9B198DB816B7FAE1008165AE /* Foundation.framework in Frameworks */,
+				9B198DBA16B7FAE1008165AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B198DA616B7FAE1008165AE = {
+			isa = PBXGroup;
+			children = (
+				9B198DBB16B7FAE1008165AE /* MoguraTataki */,
+				9B198DB416B7FAE1008165AE /* Frameworks */,
+				9B198DB216B7FAE1008165AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B198DB216B7FAE1008165AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B198DB116B7FAE1008165AE /* MoguraTataki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B198DB416B7FAE1008165AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B198DB516B7FAE1008165AE /* UIKit.framework */,
+				9B198DB716B7FAE1008165AE /* Foundation.framework */,
+				9B198DB916B7FAE1008165AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B198DBB16B7FAE1008165AE /* MoguraTataki */ = {
+			isa = PBXGroup;
+			children = (
+				9B198DC416B7FAE1008165AE /* AppDelegate.h */,
+				9B198DC516B7FAE1008165AE /* AppDelegate.m */,
+				9B198DBC16B7FAE1008165AE /* Supporting Files */,
+			);
+			path = MoguraTataki;
+			sourceTree = "<group>";
+		};
+		9B198DBC16B7FAE1008165AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B198DBD16B7FAE1008165AE /* MoguraTataki-Info.plist */,
+				9B198DBE16B7FAE1008165AE /* InfoPlist.strings */,
+				9B198DC116B7FAE1008165AE /* main.m */,
+				9B198DC316B7FAE1008165AE /* MoguraTataki-Prefix.pch */,
+				9B198DC716B7FAE1008165AE /* Default.png */,
+				9B198DC916B7FAE1008165AE /* Default@2x.png */,
+				9B198DCB16B7FAE1008165AE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B198DB016B7FAE1008165AE /* MoguraTataki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B198DCF16B7FAE1008165AE /* Build configuration list for PBXNativeTarget "MoguraTataki" */;
+			buildPhases = (
+				9B198DAD16B7FAE1008165AE /* Sources */,
+				9B198DAE16B7FAE1008165AE /* Frameworks */,
+				9B198DAF16B7FAE1008165AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoguraTataki;
+			productName = MoguraTataki;
+			productReference = 9B198DB116B7FAE1008165AE /* MoguraTataki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B198DA816B7FAE1008165AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "長瀬 征一郎";
+			};
+			buildConfigurationList = 9B198DAB16B7FAE1008165AE /* Build configuration list for PBXProject "MoguraTataki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B198DA616B7FAE1008165AE;
+			productRefGroup = 9B198DB216B7FAE1008165AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B198DB016B7FAE1008165AE /* MoguraTataki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B198DAF16B7FAE1008165AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B198DC016B7FAE1008165AE /* InfoPlist.strings in Resources */,
+				9B198DC816B7FAE1008165AE /* Default.png in Resources */,
+				9B198DCA16B7FAE1008165AE /* Default@2x.png in Resources */,
+				9B198DCC16B7FAE1008165AE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B198DAD16B7FAE1008165AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B198DC216B7FAE1008165AE /* main.m in Sources */,
+				9B198DC616B7FAE1008165AE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B198DBE16B7FAE1008165AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B198DBF16B7FAE1008165AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B198DCD16B7FAE1008165AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B198DCE16B7FAE1008165AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B198DD016B7FAE1008165AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoguraTataki/MoguraTataki-Prefix.pch";
+				INFOPLIST_FILE = "MoguraTataki/MoguraTataki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B198DD116B7FAE1008165AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoguraTataki/MoguraTataki-Prefix.pch";
+				INFOPLIST_FILE = "MoguraTataki/MoguraTataki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B198DAB16B7FAE1008165AE /* Build configuration list for PBXProject "MoguraTataki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B198DCD16B7FAE1008165AE /* Debug */,
+				9B198DCE16B7FAE1008165AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B198DCF16B7FAE1008165AE /* Build configuration list for PBXNativeTarget "MoguraTataki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B198DD016B7FAE1008165AE /* Debug */,
+				9B198DD116B7FAE1008165AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B198DA816B7FAE1008165AE /* Project object */;
+}
