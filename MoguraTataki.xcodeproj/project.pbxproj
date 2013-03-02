@@ -16,6 +16,10 @@
 		9B198DC816B7FAE1008165AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B198DC716B7FAE1008165AE /* Default.png */; };
 		9B198DCA16B7FAE1008165AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B198DC916B7FAE1008165AE /* Default@2x.png */; };
 		9B198DCC16B7FAE1008165AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B198DCB16B7FAE1008165AE /* Default-568h@2x.png */; };
+		9B198DD516B7FB4B008165AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B198DD316B7FB4B008165AE /* ViewController.m */; };
+		9B198DD616B7FB4B008165AE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B198DD416B7FB4B008165AE /* ViewController.xib */; };
+		9B198DD916B7FBE6008165AE /* TitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B198DD816B7FBE6008165AE /* TitleView.m */; };
+		9B198DDC16B7FBF8008165AE /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B198DDB16B7FBF8008165AE /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,13 @@
 		9B198DC716B7FAE1008165AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		9B198DC916B7FAE1008165AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9B198DCB16B7FAE1008165AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9B198DD216B7FB4B008165AE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B198DD316B7FB4B008165AE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B198DD416B7FB4B008165AE /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9B198DD716B7FBE6008165AE /* TitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleView.h; sourceTree = "<group>"; };
+		9B198DD816B7FBE6008165AE /* TitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleView.m; sourceTree = "<group>"; };
+		9B198DDA16B7FBF8008165AE /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		9B198DDB16B7FBF8008165AE /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +91,14 @@
 			children = (
 				9B198DC416B7FAE1008165AE /* AppDelegate.h */,
 				9B198DC516B7FAE1008165AE /* AppDelegate.m */,
+				9B198DD216B7FB4B008165AE /* ViewController.h */,
+				9B198DD316B7FB4B008165AE /* ViewController.m */,
+				9B198DD416B7FB4B008165AE /* ViewController.xib */,
 				9B198DBC16B7FAE1008165AE /* Supporting Files */,
+				9B198DD716B7FBE6008165AE /* TitleView.h */,
+				9B198DD816B7FBE6008165AE /* TitleView.m */,
+				9B198DDA16B7FBF8008165AE /* MainView.h */,
+				9B198DDB16B7FBF8008165AE /* MainView.m */,
 			);
 			path = MoguraTataki;
 			sourceTree = "<group>";
@@ -154,6 +172,7 @@
 				9B198DC816B7FAE1008165AE /* Default.png in Resources */,
 				9B198DCA16B7FAE1008165AE /* Default@2x.png in Resources */,
 				9B198DCC16B7FAE1008165AE /* Default-568h@2x.png in Resources */,
+				9B198DD616B7FB4B008165AE /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +185,9 @@
 			files = (
 				9B198DC216B7FAE1008165AE /* main.m in Sources */,
 				9B198DC616B7FAE1008165AE /* AppDelegate.m in Sources */,
+				9B198DD516B7FB4B008165AE /* ViewController.m in Sources */,
+				9B198DD916B7FBE6008165AE /* TitleView.m in Sources */,
+				9B198DDC16B7FBF8008165AE /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
